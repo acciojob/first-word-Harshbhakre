@@ -1,9 +1,7 @@
 function firstWord(s) {
-	s=s.split(" ")
+	s=s.trim().split(" ")
 	return s[0]?s[0]:""
 }
 
-// Do not change the code below
-
 const s = prompt("Enter String:");
-alert(firstWord(s));   
+alert(firstWord(s));    
